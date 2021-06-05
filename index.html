@@ -1,0 +1,43 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>A website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+	<div class="navbar">
+	<h2><span style="color: rgb(239, 239, 239);">This is a website that Wafi Nashwan made</span></h2>
+	<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+	 <div class="logo">
+	 <ul><li><a href="D:\test\new\images\logo.png"><p><img src="images/logo.png" class="logo"></p></a></li></ul>
+	 </div>
+	 <nav id="menu">
+	 <ul>
+	 <li class="text"><a href="https://wafinashwan.wixsite.com/website/lol">Pacman</a></li>
+	  <li class="text2"><a href="https://wafinashwan.wixsite.com/website/notepad">Notepad</a></li>
+	  <li class="text3"><a href="https://github.com/wafinashwanwadud">My github</a></li>
+	 </ul>
+	 <img src="Cross.png" class="close-icon" onclick="closemenu()">
+	 </nav>
+	 <img src="Menu.png" class="menu-icon" onclick="openmenu()">
+	 <a href="D:\test\new\mysound.mp3"<button type="button" onclick="">Click Me!</button></a>
+	</div>
+	</div>
+<script>
+	var menu = document.getElementById("menu");
+	
+	function closemenu(){
+	menu.style.top = "-100vh";
+}	
+	function openmenu(){
+	menu.style.top = "0";
+}
+</script>
+
+
+</body>
+</html>
